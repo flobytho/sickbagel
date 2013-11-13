@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import os
 def main():
-	print('You probably want to run this on the server that will be holding the downloaded media\n');
+	print('You probably want to run this on the client that will be holding the downloaded media\n');
 	print('If you dont have seperate watch directories for trackers / media then you are a slob and probably wont find much value in this.\n');
 	LUSER = raw_input('Enter the username for the media server / NAS / your machine: ');
 	LIP = raw_input('Local WAN Address / DNS: ');
